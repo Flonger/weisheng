@@ -1,0 +1,46 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1557371513685'); /* IE9 */
+  src: url('iconfont.eot?t=1557371513685#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAR4AAsAAAAACUgAAAQpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDTgqFCIQVATYCJAMcCxAABCAFhG0Hfxv8BxFVnEXJfg64m9vFZahgfTC1LJmsk5knf1pOyszMHQ9f+/E7d3effNdkCt58umi3pIkKoUEJVkUbQ4dO+kPCG9Ofym37jylJqnJyJSpF1B3YsYv0J2GyMOVRwuoyf6DVAUglA3ITvvgd76I37SS3HDn+JV5UBopQASyA/ftD5azzgM1n3+Iy5rKxN1g4QAEbY2HaglRrC6SgJe4wdhN5kJcJ9Fq0Jc4WemYgBZgViNvO0xmUUCsVxNDK6oKNBeIJDG1KSysAHns/H39BNLBBUmUAC8/dUneD+YP//CPHdpsd1YobzghlGxlbKMSDQvN9Hni3ZL3W8HAW9Golaah8w/Oo84+uI8K+8Tck7YVLSSohK2oC/+94cb9IuOar+cEvIBI/DBEVP6IQwY83RObHO6Lw40PiUHHN9EEM4AOAvxzhsDTErFreYyAlRQcfA4eAOqJ01axw3WJ9nQ6l5g1dz8bEOxrzojpy9kLyxkkoXTNfW+MomunhKxmhMG8qo6cqiUjn9aAsxk1/Su7WOsjZXk3n2bG8tsjjXlbJXdgYmE7pURxH5VmS0RZL7uZeFNvqmt6eZOYYOzIoeAb/TYWOeCi45k8ohFbe5RHfHXHt6a2lbeYZLRXlxc2NpVDURmGOatmTuLBf5gAGc7QS+k7b5HoNeCwDgjFa/ynMDX6clDvpyGIE9deVBXtVfqxy/VQqiMZfGIrhkSj6a+tpa/jLq9VKfLG+YB6qs+fabj4hB8e/u9ERSwdduOJjcCLavvDxYe6z96j1FQK3TNr3SRcl8TIcGop/0YMPPPeiYv88+zwPBEBB+OArwL1IvJcIED1w7/OUu/4gHyoD1YwS6eIYPA/Gf+lhcUZxJnEC5LG/jy4BeVDT6sMjFDtkK3q/vhlbUGcoZ2ebYJ3g/045I8LYdnn9Noi8ILAA3ctzaGorkL+iuq1A+oJ64U3Nj9IsQJdZfxv7n/yOl2EjUY5E8m/YeOgA3356C3ljl6WDGrxsicacv4LTsKXYPKBpilkd5wk09m6kNfETlPwP9lH7w0knGscTWhMRJI0FyFpLmELYgkqfw1BrnQAXrk3ldjxjxFaUDsDri4Mw7AeSQZ8gG/aLKYQ/qEz6h9pwoEGvK0F2YJ+V8N6rCTaKPbR3cB0vhHS69xNf0ZynRuI8j/SJEpwDsjhNB0pcUIZYEi4mVyUg4RkK7jqcJgYvPGCnsVX1pyShojeKO55Xe2cI1FCoB1p3wOmwBdHeap/5/lfIOJs0pKKiRf8JicANDjKxtAGmFC+NKi5leHBh5JQicRoRbAYK3ogm6GXAF48boI6K2Q5u7yQROlFTcTy9dL7PfQDgAg9jhdEZLKxsFKr7lhc8+rhmUT4Hy1Tm6UQ+XTUifK0mJH1ORogzVndyWqQY9CHU1WaSyKhjf1+tAAAAAA==') format('woff2'),
+  url('iconfont.woff?t=1557371513685') format('woff'),
+  url('iconfont.ttf?t=1557371513685') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1557371513685#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jiantoushang:before {
+  content: "\e62c";
+}
+
+.icon-icon_arrow_left:before {
+  content: "\e6f5";
+  font-size: 32px;
+  color: #499DF1;
+}
+
+.icon-icon_arrow_right:before {
+  content: "\e6f6";
+  font-size: 32px;
+  color: #499DF1;
+}
+.icon-icon-test:before {
+  content: "\e64f";
+  font-size: 32px;
+}
+.icon-xiangxia-copy:before {
+  content: "\e6f7";
+  color: #fff;
+  font-size: 48px;
+}
+.icon-phone:before {
+  content: "\e67d";
+  font-size: 24px;
+  color: rgb(255,209,88);
+}

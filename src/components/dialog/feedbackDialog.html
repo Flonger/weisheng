@@ -1,0 +1,44 @@
+<style>
+  #feedback{
+    width: 100%;
+    height: 400px;
+    border: none;
+  }
+</style>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Feedback and Suggestions</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="CategoryLike" class="col-form-label">Category:</label>
+            <select class="form-control" id="CategoryLike" v-model="feedbackInfo.type">
+              <option value="">---Please Select---</option>
+              <option value="1">Loan Details</option>
+              <option value="2">Authrentication</option>
+              <option value="3">Suggestions</option>
+              <option value="4">Complaints</option>
+              <option value="5">Others</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="PhoneLike" class="col-form-label">Phone:</label>
+            <input type="tel" v-model="feedbackInfo.opinionPhone" maxlength="10" class="form-control" id="PhoneLike" placeholder="please enter Wifi Cash register phone">
+          </div>
+          <div class="form-group">
+            <label for="feedbackText" class="col-form-label">Feedback and Suggestions:</label>
+            <textarea rows="5" v-model="feedbackInfo.opinion" class="form-control" id="feedbackText" maxlength="500" placeholder="please enter Feedback and Suggestions"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">CLOSE</button>
+        <button type="button" class="btn btn-primary" v-on:click="seedFeedback">SUBMIT</button>
+      </div>
+    </div>
+  </div>

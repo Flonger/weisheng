@@ -1,0 +1,76 @@
+#navBar
+  background-color #406BC5
+  .navbar-toggler
+    border-color #fff
+    color #fff
+    outline none
+  .navbar-nav > li
+    a
+      position relative
+      text-decoration: none
+      font-weight: bold
+      font-size large
+      color #fff
+      padding 15px 15px !important
+      i
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 3px;
+        opacity: 0;
+        transition: all 0.6s ease;
+        background-color: #FEF85E;
+    &:hover .underline
+      opacity: 1;
+      width: 100%;
+      left: 0;
+    .active
+      i
+        left 0
+        width 100%
+        opacity 1
+      color: #FEF85E
+      border-color #1e73be
+  .dropdown-menu > a
+    color  rgb(0,0,0) !important
+  .bg-light
+    font-weight normal
+    /*background-color: rgba(0, 0, 0, 0.80) !important*/
+  .navbar-brand >.logo
+    vertical-align: middle
+    margin-right 20px
+  .navbar-brand
+    /*margin-right 2rem*/
+  .des
+    display inline-block
+    vertical-align middle
+    p
+      color #fff
+      font-size 14px
+    .proName
+      font-size 24px
+      margin-bottom 13px
+  @media (max-width: 768px){
+    .logo {
+      width 40px
+      height 40px
+    }
+    .proName{
+      margin-bottom 5px !important
+      font-size 16px !important
+      margin-bottom 0 !important
+    }
+  }
+  @media (min-width: 1200px){
+    .container {
+      max-width: 1200px;
+    }
+  }
+
+
+
+
+
+
