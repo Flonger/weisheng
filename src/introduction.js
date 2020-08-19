@@ -22,7 +22,7 @@ $(function() {
   new FeedbackDialog().mount(document.querySelector('#feedbackModal'));
   navView.mount(document.querySelector('#nav'));
   goTop.mount(document.querySelector('#goTop'));
- // FeedbackDialog.mount(document.querySelector('#feedbackDialog'));
+  // FeedbackDialog.mount(document.querySelector('#feedbackDialog'));
   titleDes.mount(document.querySelector('#aboutTitle'), 'About Wifi Cash');
   titleDes.mount(document.querySelector('#featuresTitle'), 'Our product Features');
   titleDes.mount(document.querySelector('#getMoneyTitle'), 'Loan Step');
