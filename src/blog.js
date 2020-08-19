@@ -3,12 +3,16 @@ import '@/common/styl/index.styl'
 import '@/styl/blog.styl'
 import '@/components/nav/index'
 import './font/iconfont.css'
+import Nav from "./components/nav";
 import 'jquery/dist/jquery.min'
 import 'bootstrap/dist/js/bootstrap.min'
 import { template } from "./utils";
 import {sendBlogListApi} from "./api/blogAPI";
 import LoadingSpinner from './components/loading'
 $(function() {
+   const navView = new Nav();
+  // const goTop = new GoTop();
+  navView.mount(document.querySelector('#nav'));
   const newsListNode = document.querySelector('#newsList');
   let newsListTemplate = document.querySelector('#news_tmpl').innerHTML;
   let loading = new LoadingSpinner(document.querySelector('.loadingSpinner'));

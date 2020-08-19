@@ -4,6 +4,7 @@ import '@/styl/blogDetail.styl'
 import '@/components/nav/index'
 import './font/iconfont.css'
 import 'jquery/dist/jquery.min'
+import Nav from "./components/nav";
 import 'bootstrap/dist/js/bootstrap.min'
 import $md5 from 'js-md5'
 import {GetRequest} from '@/utils'
@@ -15,6 +16,8 @@ import { MVVM } from "./common/js";
 import Pagination from "./components/pagination/pagination";
 
 $(function () {
+  const navView = new Nav();
+  navView.mount(document.querySelector('#nav'));
   let newId = GetRequest().n;
   let toast = new Toast();
   let loading = new LoadingSpinner(document.querySelector('.loadingSpinner'));

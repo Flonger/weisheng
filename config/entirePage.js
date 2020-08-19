@@ -7,7 +7,8 @@ module.exports = {
     conditions: './src/conditions.js',
     blog: './src/blog.js',
     blogDetail: './src/blogDetail.js',
-    chargePolicy: './src/chargePolicy.js'
+    chargePolicy: './src/chargePolicy.js',
+    introduction: './src/introduction.js'
   },
   devHtmlWebpackPlugin: [
     new HtmlWebpackPlugin({
@@ -45,6 +46,12 @@ module.exports = {
       template: 'chargePolicy.html',
       inject: true,
       chunks:['chargePolicy']
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'introduction.html',
+      template: 'introduction.html',
+      inject: true,
+      chunks:['introduction']
     })
   ],
   proHtmlWebpackPlugin: [
@@ -128,6 +135,18 @@ module.exports = {
       },
       chunksSortMode: 'dependency',
       chunks: ['manifest','vendor','chargePolicy']
+    }),
+    new HtmlWebpackPlugin({
+      filename: config.build.introduction,
+      template: 'introduction.html',
+      inject: true,
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+        removeAttributeQuotes: true
+      },
+      chunksSortMode: 'dependency',
+      chunks: ['manifest','vendor','introduction']
     })
   ]
 };
